@@ -7,5 +7,5 @@ doubles = list(map(lambda n : n*2, even))
 
 print(doubles)
 
-sum = reduce(lambda a,b : a+b,doubles)
+sum = list(reduce(lambda a,b : a+b,doubles))
 print(sum)
