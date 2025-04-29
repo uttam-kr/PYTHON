@@ -4,6 +4,7 @@ class Employee():
 	#How to initialize attribute
 	#init method
 	def __init__(self, employee_name, employee_age, employee_weight, employee_height):
+                #self:- self is a refrence variable which is always pointing to current object. within the python class to refer current object we should use self variable.
 		print('constructor called')
 		#('init method or constructor called') ---->This __init__ method called constructor
 		self.name = employee_name
