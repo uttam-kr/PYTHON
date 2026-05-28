@@ -1,0 +1,5 @@
+hostname,ip,status,role
+web01,192.168.1.10,active,web
+db01,192.168.1.20,active,db
+web02,192.168.1.11,inactive,web
+cache01,192.168.1.30,active,cache
